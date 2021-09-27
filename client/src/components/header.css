@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+}
+
+#root {
+	margin: 0;
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	background: rgb(32,32,32);
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	gap: 2em;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+}
+
+.navlink {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+.active {
+	color: #909090;
+	border-bottom: 2px solid currentColor;
+}
+
+.hero {
+	background: rgb(32,32,32);
+	background: linear-gradient(-180deg, rgba(32,32,32,1) 0%, rgba(97,69,23,1) 62%, rgba(152,100,15,1) 83%, rgba(255,157,0,1) 100%);
+	padding-top: 5em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+
+
+.herosubtitle {
+	color: white;
+	text-align: center;
+	max-width: 30ch;
+	margin: auto;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+}
+
+.btn {
+	border-radius: 8px;
+	color: white;
+	padding: 1em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.orange {
+	margin-top: 1em;
+	background-color: #e8a738;
+	border: 2px solid white;
+}
+
+.hero-img {
+	max-width: 20em;
+}
